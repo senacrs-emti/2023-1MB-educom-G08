@@ -5,3 +5,17 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+.window {
+    width: 300px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    box-shadow: 0px 0px 3px black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.window__top-division {
+    margin-top: 2%;
+    border-bottom: 1px solid #ccc;
+}
