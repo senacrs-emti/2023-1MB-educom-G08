@@ -19,3 +19,8 @@
     margin-top: 2%;
     border-bottom: 1px solid #ccc;
 }
+
+.window__title,
+.window__paragraph {
+    margin-left: 3%;
+}
