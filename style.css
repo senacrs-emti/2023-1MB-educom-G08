@@ -6,54 +6,67 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    width: 4000px;
 }
 
-.window {
-    width: 310px;
-    border: 1px solid #000;
-    font-size: 12px;
-    box-shadow: 0px 0px 3px black;
-    margin-top: 20px;
-    margin-left: 20px;
+body, html{
+
+height: 100%;
+background-image: url(img/8bit.jpg);
+background-size: 28%;
+
 }
 
-.window__top-division {
-    border-bottom: 1px solid #000;
+.vital{
+    width: 300px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
 }
 
-.window__title p {
-    margin-left: 6%;
-    font-weight: bold;
+.fran1 img{
+
+    height: 150px;
+    width: 150px;
+    margin-top:450px;
+    margin-left: 90px;
+
 }
 
-.first-paragraph {
-    margin-top: 2%;
+.f2 img{
+
+    height: 150px;
+    width: 150px;
+    margin-top: -172px;
+    margin-left: 300px;
+    position: absolute;
+
 }
 
-.window__paragraph {
-    margin-left: 2%;
+.f3 img{
+
+    height: 120px;
+    width: 120px;
+    margin-left: 1900px;
+    margin-top: -142px;
+    position: absolute;
+    transform: scaleX(-1);
+
 }
 
-#importanciaCriancas {
-    background-color: #95b8f680;
+.f4 img{
+
+    height: 120px;
+    width: 120px;
+    margin-left: 2200px;
+    margin-top: -142px;
+    position: absolute;
+
 }
 
-#importanciaGeral {
-    background-color: #b2e2f285;
-}
-
-#importanciaAdolescentes {
-    background-color: #e1b1bc;
-}
-
-#importanciaAdultos {
-    background-color: #f15fff60;
-}
-
-#importanciaIdosos {
-    background-color: #fdfd96;
-}
-
-#recomendacaoApps {
-    background-color: #f8b19590;
-}
