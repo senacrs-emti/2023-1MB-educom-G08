@@ -1,19 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
-    font-family: '8 bit wonder', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: '8 bit wonder';
-    src: url('./fonts/8bit_wonder/8-BIT\ WONDER.TTF');
-}
-
 .window {
     width: 310px;
-    border: 1px solid #ccc;
+    background-color: #b2e2f240;
+    border: 1px solid #000;
     font-size: 12px;
     box-shadow: 0px 0px 3px black;
     margin-top: 20px;
@@ -22,7 +20,7 @@
 
 .window__top-division {
     margin-top: 2%;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
 }
 
 .window__title,
