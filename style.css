@@ -15,6 +15,19 @@ background-size: 28%;
 
 }
 
+.vital{
+    width: 300px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
 .fran1 img{
 
     height: 150px;
