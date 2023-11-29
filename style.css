@@ -70,3 +70,56 @@ background-size: 28%;
 
 }
 
+
+.window {
+    width: 310px;
+    height: 310px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 12px;
+    box-shadow: 0px 0px 3px black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ 
+.window__top-division {
+    border-bottom: 1px solid #000;
+}
+ 
+.window__title p {
+    margin-left: 6%;
+    font-weight: bold;
+}
+ 
+.first-paragraph {
+    margin-top: 2%;
+}
+ 
+.window__paragraph {
+    margin-left: 2%;
+}
+ 
+#importanciaCriancas {
+    background-color: #95b8f680;
+}
+ 
+#importanciaGeral {
+    background-color: #b2e2f285;
+}
+ 
+#importanciaAdolescentes {
+    background-color: #e1b1bc;
+}
+ 
+#importanciaAdultos {
+    background-color: #f15fff60;
+}
+ 
+#importanciaIdosos {
+    background-color: #fdfd96;
+}
+ 
+#recomendacaoApps {
+    background-color: #f8b19590;
+}
