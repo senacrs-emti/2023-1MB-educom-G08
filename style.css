@@ -15,7 +15,7 @@ background-size: 28%;
 
 }
 
-.fran img{
+.fran1 img{
 
     height: 150px;
     width: 150px;
@@ -23,3 +23,35 @@ background-size: 28%;
     margin-left: 90px;
 
 }
+
+.f2 img{
+
+    height: 150px;
+    width: 150px;
+    margin-top: -172px;
+    margin-left: 300px;
+    position: absolute;
+
+}
+
+.f3 img{
+
+    height: 120px;
+    width: 120px;
+    margin-left: 1900px;
+    margin-top: -142px;
+    position: absolute;
+    transform: scaleX(-1);
+
+}
+
+.f4 img{
+
+    height: 120px;
+    width: 120px;
+    margin-left: 2200px;
+    margin-top: -142px;
+    position: absolute;
+
+}
+
