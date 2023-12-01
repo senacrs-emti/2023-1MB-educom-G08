@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap");
 
-*{
+* {
     margin: 0%;
     padding: 0%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     box-sizing: border-box;
     width: 4000px;
-
 }
 
-body, html{
-
-height: 100%;
-background-image: url(img/8bit.jpg);
-background-size: 28%;
-
+body, html {
+    height: 100%;
+    background-image: url(img/8bit.jpg);
+    background-size: 28%;
 }
 
-.vital{
+.vital {
     width: 300px;
     height: 60px;
     display: block;
@@ -28,154 +25,131 @@ background-size: 28%;
     font-size: 30px;
     color: white;
     text-shadow: 2px 2px 2px black;
-
 }
 
-.fran1 img{
-
+.fran1 img {
     height: 150px;
     width: 150px;
     margin-top: 450px;
     margin-left: 90px;
-
 }
 
-.f2 img{
-
+.f2 img {
     height: 150px;
     width: 150px;
     margin-top: -172px;
     margin-left: 300px;
     position: absolute;
-
 }
 
-.f3 img{
-
+.f3 img {
     height: 120px;
     width: 120px;
     margin-left: 1900px;
     margin-top: -142px;
     position: absolute;
     transform: scaleX(-1);
-
 }
 
-.f4 img{
-
+.f4 img {
     height: 120px;
     width: 120px;
     margin-left: 2200px;
     margin-top: -142px;
     position: absolute;
-
 }
 
-#gui{
-
+#gui {
     float: left;
     margin-top: -400px;
     margin-left: 200px;
-    display: block;
+    display: flex;
     width: 100%;
-
 }
 
 .window {
     width: 310px;
-    height: 190px;
+    height: 220px auto;
     display: block;
     background-color: #fff;
     border: 1px solid #000;
-    font-size: 12px;
+    font-size: 14px;
     box-shadow: 0px 0px 3px black;
     margin-top: 20px;
     margin-left: 300px;
     float: left;
 }
- 
+
 .window__top-division {
     border-bottom: 1px solid #000;
 }
- 
+
 .window__title p {
     margin-left: 6%;
     font-weight: bold;
 }
- 
+
 .first-paragraph {
     margin-top: 2%;
 }
- 
+
 .window__paragraph {
     margin-left: 2%;
 }
- 
+
 #importanciaCriancas {
     background-color: #95b8f680;
 }
- 
+
 #importanciaGeral {
     background-color: #b2e2f285;
 }
- 
+
 #importanciaAdolescentes {
     background-color: #e1b1bc;
 }
- 
+
 #importanciaAdultos {
     background-color: #f15fff60;
 }
- 
+
 #importanciaIdosos {
     background-color: #fdfd96;
 }
- 
+
 #recomendacaoApps {
     background-color: #f8b19590;
 }
 
-    
-
-#txtgit{
-
+#txtgit {
     font-family: 35px;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px black;
     margin-left: 4500px;
     margin-top: -400px;
     position: absolute;
-
 }
 
-.final1 a img{
-
+.final1 a img {
     height: 350px;
     width: 350px;
     margin-left: 4400px;
     margin-top: -400px;
     position: absolute;
-
-
 }
 
-
-.final2 a img{
-
+.final2 a img {
     height: 350px;
     width: 350px;
     margin-left: 4700px;
     margin-top: -400px;
     position: absolute;
-
 }
 
-.final3 a img{
-
+.final3 a img {
     height: 350px;
     width: 350px;
     margin-left: 5000px;
     margin-top: -400px;
     position: absolute;
-
 }
