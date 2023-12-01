@@ -7,6 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     width: 4000px;
+
 }
 
 body, html{
@@ -34,7 +35,7 @@ background-size: 28%;
 
     height: 150px;
     width: 150px;
-    margin-top:450px;
+    margin-top: 450px;
     margin-left: 90px;
 
 }
@@ -70,6 +71,15 @@ background-size: 28%;
 
 }
 
+#gui{
+
+    float: left;
+    margin-top: -400px;
+    margin-left: 200px;
+    display: block;
+    width: 100%;
+
+}
 
 .window {
     width: 310px;
@@ -79,8 +89,8 @@ background-size: 28%;
     border: 1px solid #000;
     font-size: 12px;
     box-shadow: 0px 0px 3px black;
-    margin-top: -300px;
-    margin-left: 200px;
+    margin-top: 20px;
+    margin-left: 300px;
     float: left;
 }
  
@@ -123,4 +133,49 @@ background-size: 28%;
  
 #recomendacaoApps {
     background-color: #f8b19590;
+}
+
+    
+
+#txtgit{
+
+    font-family: 35px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 4500px;
+    margin-top: -400px;
+    position: absolute;
+
+}
+
+.final1 a img{
+
+    height: 350px;
+    width: 350px;
+    margin-left: 4400px;
+    margin-top: -400px;
+    position: absolute;
+
+
+}
+
+
+.final2 a img{
+
+    height: 350px;
+    width: 350px;
+    margin-left: 4700px;
+    margin-top: -400px;
+    position: absolute;
+
+}
+
+.final3 a img{
+
+    height: 350px;
+    width: 350px;
+    margin-left: 5000px;
+    margin-top: -400px;
+    position: absolute;
+
 }
