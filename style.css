@@ -69,15 +69,12 @@ body, html {
 
 .window {
     width: 310px;
-    height: 220px auto;
-    display: block;
+    height: 260px;
     background-color: #fff;
     border: 1px solid #000;
     font-size: 14px;
     box-shadow: 0px 0px 3px black;
-    margin-top: 20px;
-    margin-left: 300px;
-    float: left;
+    margin-left: 240px;
 }
 
 .window__top-division {
@@ -155,31 +152,19 @@ body, html {
 }
 
 #secondWindow {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-#thirdWindow {
-    position: absolute;
-    top: 0;
-    right: 0;
+    margin-top: 100px;
 }
 
 #fourthWindow {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin-top: -160px;
 }
 
 #fifthWindow {
-    position: absolute;
-    top: 0;
-    right: 0;
+    height: 220px;
+    margin-top: 120px;
 }
 
 #lastWindow {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    height: 130px;
+    margin-top: -90px;
 }
